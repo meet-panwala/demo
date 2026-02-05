@@ -71,6 +71,6 @@ with st.sidebar:
 
 st.image("photo.jpg", caption="Sunrise by the mountains")
 
-video_file = open("video12.mp4", "rb")
+video_file = open("video.mp4", "rb")
 video_bytes = video_file.read()
 st.video(video_bytes)
