@@ -1,4 +1,3 @@
-#%%
 import streamlit as st
 
 st.title("Button Example")
@@ -70,8 +69,8 @@ with st.sidebar:
         ("Standard (5-15 days)", "Express (2-5 days)")
     )
 
-st.image("mountains.jpg", caption="Sunrise by the mountains")
+st.image("photo.jpg", caption="Sunrise by the mountains")
 
-video_file = open("F:\HTML demo\Dubai.mp4", "rb")
+video_file = open("video12.mp4", "rb")
 video_bytes = video_file.read()
 st.video(video_bytes)
